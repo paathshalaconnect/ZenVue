@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
 import About from '../pages/About.vue'
+import Sidebar from '../pages/Sidebar.vue'
 import Page00_Hello_World from '../pages/00-Hello-World.vue'
 import Page01_Data_Setup from '../pages/01-Data-Setup.vue'
 import Page02_Binding_v_bind from '../pages/02-Binding-v-bind.vue'
@@ -38,14 +39,20 @@ const router = createRouter({
     history: createWebHistory(
         import.meta.env.BASE_URL),
     routes: [{
-            path: '/',
-            name: 'home',
+            path: '/home',
+            name: 'Home',
             component: Home
         },
         {
             path: '/about',
-            name: 'about',
+            name: 'About',
             component: About
+
+        },
+        {
+            path: '/sidebar',
+            name: 'Sidebar',
+            component: Sidebar
 
         },
         {
