@@ -1,11 +1,11 @@
 <template>
     <div>
-      <HelloWorld />
+       <SidebarComponent />
     </div>
   </template>
   
   <script>
-  import HelloWorld from "../components/00-Hello-World/HelloWorld.vue";
+  import SidebarComponent from "../components/Sidebar/Sidebar.vue";
   export default {};
   </script>
   

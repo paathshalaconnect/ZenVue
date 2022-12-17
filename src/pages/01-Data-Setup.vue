@@ -1,19 +1,12 @@
 <template>
     <div>
-
+      <Data />
     </div>
-</template>
-
-<script>
-export default {
-    setup () {
-        
-
-        return {}
-    }
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>
+  </template>
+  
+  <script>
+  import Data from "../components/01-Data-Setup/Data.vue";
+  export default {};
+  </script>
+  
+  <style scoped></style>
