@@ -171,6 +171,7 @@
               fill="white"
             />
           </svg>
+
           <router-link
           to="/home"
           v-slot="{href, route, navigate}"
@@ -328,7 +329,7 @@
               space-x-14
             "
           >
-            <p class="text-sm leading-5 uppercase">Profile Overview</p>
+            <p class="text-sm leading-5 uppercase">Section 1</p>
             <svg
               id="icon1"
               class="transform"
@@ -384,7 +385,17 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Messages</p>
+
+              <router-link
+          to="/00-Hello-World"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+              
             </button>
             <button
               class="
@@ -439,7 +450,17 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Security</p>
+
+              <router-link
+          to="/01-Data-Setup"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+              
             </button>
             <button
               class="
@@ -529,7 +550,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Settings</p>
+              
+              <router-link
+          to="/02-Binding-v-bind"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -570,7 +600,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Notifications</p>
+              
+              <router-link
+          to="/03-Conditional-Rendering-v-if"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -618,7 +657,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Passwords</p>
+              
+              <router-link
+          to="/04-List-Rendering-v-for"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -666,7 +714,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Goals</p>
+              
+              <router-link
+          to="/05-Methods"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
           </div>
         </div>
@@ -693,6 +750,9 @@
               space-x-14
             "
           >
+          
+          
+
             <p class="text-sm leading-5 uppercase">VENDORS</p>
             <svg
               id="icon2"
@@ -1109,6 +1169,9 @@
                   stroke-linejoin="round"
                 />
               </svg>
+
+              
+
               <p class="text-base leading-4">Messages</p>
             </button>
             <button
