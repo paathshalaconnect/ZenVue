@@ -11,7 +11,7 @@ import SidebarComponent from "../src/components/Sidebar/Sidebar.vue";
   <div>
  
 
-  <SidebarComponent></SidebarComponent>
+  <SidebarComponent/>
 
   <!-- <RouterView /> -->
 
