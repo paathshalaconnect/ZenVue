@@ -329,6 +329,8 @@
               space-x-14
             "
           >
+
+          
             <p class="text-sm leading-5 uppercase">Section 1</p>
             <svg
               id="icon1"
@@ -714,9 +716,579 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              
+
               <router-link
           to="/05-Methods"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              
+              <router-link
+          to="/06-Event-Handling-v-on"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/07-Form-Handling"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/08-Computed-Properties"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/09-Watchers"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/10-Components-and-props"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/11-Provide-and-Inject"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/12-Component-Events"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/13-Reflective-Two-Way-Data-v-model"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/14-Slots-and-Slotprops"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/15-Component-Styles"
           v-slot="{href, route, navigate}"
           >
             <button :href="href" @click="navigate" class="text-base leading-4">
@@ -750,10 +1322,17 @@
               space-x-14
             "
           >
-          
-          
 
-            <p class="text-sm leading-5 uppercase">VENDORS</p>
+          
+          
+          
+        <!-- <router-link>
+          <button :href="href" @click="navigate" class="text-sm leading-5 uppercase">
+            {{ route.name }}
+          </button>
+      </router-link> -->
+
+            <p class="text-sm leading-5 uppercase">Section 2</p>
             <svg
               id="icon2"
               class="transform rotate-180"
@@ -1117,7 +1696,9 @@
               space-x-14
             "
           >
-            <p class="text-sm leading-5 uppercase">SERVICES</p>
+
+
+            <p class="text-sm leading-5 uppercase">Section 3</p>
             <svg
               id="icon3"
               class="rotate-180 transform"
