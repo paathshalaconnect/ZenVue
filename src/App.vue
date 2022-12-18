@@ -9,11 +9,11 @@ import SidebarComponent from "../src/components/Sidebar/Sidebar.vue";
 <template>
   
   <div>
- 
+ hi
 
   <SidebarComponent/>
 
-  <!-- <RouterView /> -->
+  <RouterView />
 
 
 </div>

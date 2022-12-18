@@ -1385,7 +1385,17 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Messages</p>
+              
+              
+              <router-link
+          to="/16-Dynamic-Components-and-Keep-Alive"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -1440,7 +1450,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Security</p>
+              
+              <router-link
+          to="/17-Teleport-Component"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -1530,7 +1549,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Settings</p>
+              
+              <router-link
+          to="/18-HTTP-and-Components"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -1619,7 +1647,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Passwords</p>
+              
+              <router-link
+          to="/19-Lifecycle-Hooks"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -1667,7 +1704,74 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Goals</p>
+
+              <router-link
+          to="/20-Template-refs"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-full
+                md:w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            
+              <router-link
+          to="/21-Reusability-via-mixins-and-composables"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+             
             </button>
           </div>
         </div>
@@ -1751,9 +1855,16 @@
                 />
               </svg>
 
-              
+              <router-link
+          to="/22-Composition-API-Ref-Reactive-Tokens"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
 
-              <p class="text-base leading-4">Messages</p>
+              
             </button>
             <button
               class="
@@ -1807,7 +1918,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Security</p>
+              
+              <router-link
+          to="/23-Composition-API-Ref-Reactive-Methods"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -1896,7 +2016,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Settings</p>
+              
+              <router-link
+          to="/24-Composition-API-Ref-Reactive-Computed-Properties"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -1983,7 +2112,16 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Passwords</p>
+              
+              <router-link
+          to="/25-Composition-API-Ref-Reactive-Watchers"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
             <button
               class="
@@ -2030,7 +2168,296 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              <p class="text-base leading-4">Goals</p>
+
+              <router-link
+          to="/26-Composition-API-Ref-Reactive-Template-Refs"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/27-Composition-API-Ref-Reactive-Lifecycle-Hooks"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/28-Composition-API-Ref-Reactive-Template-Refs"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/29-Composition-API-Ref-Reactive-props"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <router-link
+          to="/30-Composition-API-Ref-Reactive-Custom-Events"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
+            </button>
+            <button
+              class="
+                flex
+                justify-start
+                items-center
+                space-x-6
+                hover:text-white
+                focus:bg-gray-700 focus:text-white
+                hover:bg-gray-700
+                text-gray-400
+                rounded
+                px-3
+                py-2
+                w-52
+              "
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 21H12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 21V3"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10 4L19 8L10 12"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              
+              <router-link
+          to="/31-Composition-API-Ref-Reactive-Reusability"
+          v-slot="{href, route, navigate}"
+          >
+            <button :href="href" @click="navigate" class="text-base leading-4">
+              {{ route.name }}
+            </button>
+        </router-link>
+
             </button>
           </div>
           <div class="flex justify-between items-center w-full">
